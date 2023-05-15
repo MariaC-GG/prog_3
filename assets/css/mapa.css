@@ -1,0 +1,17 @@
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(15, 20, 26);
+    font-size: 35px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+.mapa{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+     padding: 8px;
+}
+.mapa iframe{
+    border-radius: 40px;
+}

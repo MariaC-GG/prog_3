@@ -1,0 +1,48 @@
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(15, 20, 26);
+    font-size: 35px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-his{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 8px;
+}
+
+.img img{
+    border-radius: 40px;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+     padding: 8px;
+}
+
+.img:hover{
+    transform: scale(1.0);
+    cursor: all-scroll;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+main{
+    margin: 0 16px;
+    
+}
+
+.video-sapato{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+     padding: 8px;
+}
+
+.video-sapato iframe{
+    border-radius: 40px;
+}
